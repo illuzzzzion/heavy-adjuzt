@@ -5,7 +5,11 @@ import { SmoothScroll } from "@/components/SmoothScroll";
 import { CustomCursor } from "@/components/CustomCursor";
 import { DevFool } from "@/components/DevFool";
 
-const font_Space_Mono = Space_Mono({ weight: ["700", "400"], display: "swap" });
+const font_Space_Mono = Space_Mono({
+  weight: ["700", "400"],
+  display: "swap",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "##############",
